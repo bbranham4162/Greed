@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+namespace Greed
+{
+    class Program
+    {
+        private static void Main()
+        {
+            Director director = new Director();
+            director.StartGame();
+        }
+    }
+}
