@@ -64,6 +64,8 @@ namespace Unit04.Game.Directing
             Actor banner = cast.GetFirstActor("banner");
             Actor robot = cast.GetFirstActor("robot");
             List<Actor> artifacts = cast.GetActors("artifacts");
+            List<int> deleteList = new List<int>();
+            int delCount = 0;
 
             banner.SetText("");
             int maxX = videoService.GetWidth();
@@ -78,10 +80,18 @@ namespace Unit04.Game.Directing
                     Artifact artifact = (Artifact) actor;
                     pointTotal = pointTotal + 1;
                     banner.SetText($"Points: {pointTotal}");
-                    //REMOVE TOUCHED ARTIFACT HERE
-                    //delete.artifacts(actor);
+
+                    //create a list that will be used to remove touched actors
+                    deleteList.Add(delCount);
                 }
-            } 
+                delCount = delCount + 1;
+            }
+
+            //deletes touched items
+            foreach(int i in deleteList)
+            {
+                //cast.RemoveActor("artifacts", );
+            }
         }
 
         /// <summary>
