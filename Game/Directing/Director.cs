@@ -114,7 +114,6 @@ namespace Unit04.Game.Directing
                 {
                     FallingObjects artifact = (FallingObjects) actor;
                     pointTotal = pointTotal + 1;
-                    banner.SetText($"Points: {pointTotal}");
 
 
                     //create a list that will be used to remove touched actors
@@ -122,7 +121,7 @@ namespace Unit04.Game.Directing
                 }
                 
             }
-
+            banner.SetText($"Points: {pointTotal}");
             
 
         }
