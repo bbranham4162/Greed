@@ -2,6 +2,10 @@ using System.Collections.Generic;
 using Unit04.Game.Casting;
 using Unit04.Game.Services;
 
+using System;
+using System.IO;
+using System.Linq;
+using Unit04.Game.Directing;
 
 namespace Unit04.Game.Directing
 {
@@ -65,7 +69,6 @@ namespace Unit04.Game.Directing
             Actor robot = cast.GetFirstActor("robot");
             List<Actor> artifacts = cast.GetActors("artifacts");
             List<int> deleteList = new List<int>();
-            int delCount = 0;
 
             banner.SetText("");
             int maxX = videoService.GetWidth();
@@ -76,6 +79,11 @@ namespace Unit04.Game.Directing
 
 
             //moves artifacts down
+            Random rnd = new Random();
+
+            int randomInt = rnd.Next(0,60);
+            randomInt = randomInt * 15;
+
             Point addLoc = new Point(0,5);
 
             Point location = new Point(0,0);
@@ -93,7 +101,7 @@ namespace Unit04.Game.Directing
                 location = actor.GetPosition();
                 if(location.GetY() >= 600)
                 {
-                    location = new Point(location.GetX(), 0);
+                    location = new Point(randomInt, 0);
                     actor.SetPosition(location);
                 }
             }
@@ -107,17 +115,7 @@ namespace Unit04.Game.Directing
                     Artifact artifact = (Artifact) actor;
                     pointTotal = pointTotal + 1;
                     banner.SetText($"Points: {pointTotal}");
-
-                    //create a list that will be used to remove touched actors
-                    deleteList.Add(delCount);
                 }
-                delCount = delCount + 1;
-            }
-
-            //deletes touched items
-            foreach(int i in deleteList)
-            {
-                //cast.RemoveActor("artifacts", );
             }
         }
 
