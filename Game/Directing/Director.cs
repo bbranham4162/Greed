@@ -87,6 +87,17 @@ namespace Unit04.Game.Directing
                 actor.SetPosition(location);
             }
 
+            //respawns artifacts at the top when they touch the bottom
+            foreach (Actor actor in artifacts)
+            {
+                location = actor.GetPosition();
+                if(location.GetY() >= 600)
+                {
+                    location = new Point(location.GetX(), 0);
+                    actor.SetPosition(location);
+                }
+            }
+
 
 
             foreach (Actor actor in artifacts)
