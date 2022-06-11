@@ -73,6 +73,22 @@ namespace Unit04.Game.Directing
 
             robot.MoveNext(maxX, maxY);
 
+
+
+            //moves artifacts down
+            Point addLoc = new Point(0,5);
+
+            Point location = new Point(0,0);
+
+            foreach (Actor actor in artifacts)
+            {
+                location = actor.GetPosition();
+                location = location.Add(addLoc);
+                actor.SetPosition(location);
+            }
+
+
+
             foreach (Actor actor in artifacts)
             {
                 if (robot.GetPosition().Equals(actor.GetPosition()))
