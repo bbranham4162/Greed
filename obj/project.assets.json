@@ -116,19 +116,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\James\\.nuget\\packages\\": {}
+    "C:\\Users\\caleb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\James\\Documents\\Schoolwork\\Programming\\CSE 210\\Greed\\Unit04.csproj",
+      "projectUniqueName": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\Unit04.csproj",
       "projectName": "Unit04",
-      "projectPath": "C:\\Users\\James\\Documents\\Schoolwork\\Programming\\CSE 210\\Greed\\Unit04.csproj",
-      "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\James\\Documents\\Schoolwork\\Programming\\CSE 210\\Greed\\obj\\",
+      "projectPath": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\Unit04.csproj",
+      "packagesPath": "C:\\Users\\caleb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\caleb\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
