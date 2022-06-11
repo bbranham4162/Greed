@@ -61,3 +61,24 @@ C:\Users\caleb\OneDrive\Desktop\C#Repos\Greed\obj\Debug\net6.0\refint\Unit04.dll
 C:\Users\caleb\OneDrive\Desktop\C#Repos\Greed\obj\Debug\net6.0\Unit04.pdb
 C:\Users\caleb\OneDrive\Desktop\C#Repos\Greed\obj\Debug\net6.0\Unit04.genruntimeconfig.cache
 C:\Users\caleb\OneDrive\Desktop\C#Repos\Greed\obj\Debug\net6.0\ref\Unit04.dll
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\Unit04.exe
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\Unit04.deps.json
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\Unit04.runtimeconfig.json
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\Unit04.dll
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\Unit04.pdb
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\Raylib-cs.dll
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.csproj.AssemblyReference.cache
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.AssemblyInfoInputs.cache
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.AssemblyInfo.cs
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.csproj.CopyComplete
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.dll
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\refint\Unit04.dll
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.pdb
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.genruntimeconfig.cache
+C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\ref\Unit04.dll
