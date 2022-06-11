@@ -63,7 +63,7 @@ namespace Unit04.Game.Directing
         {
             Actor banner = cast.GetFirstActor("banner");
             Actor robot = cast.GetFirstActor("robot");
-            List<Actor> artifacts = cast.GetActors("artifacts");
+            List<Actor> FallingObjects = cast.GetActors("FallingObjects");
             List<int> deleteList = new List<int>();
             int delCount = 0;
 
@@ -80,7 +80,7 @@ namespace Unit04.Game.Directing
 
             Point location = new Point(0,0);
 
-            foreach (Actor actor in artifacts)
+            foreach (Actor actor in FallingObjects)
             {
                 location = actor.GetPosition();
                 location = location.Add(addLoc);
@@ -88,7 +88,7 @@ namespace Unit04.Game.Directing
             }
 
             //respawns artifacts at the top when they touch the bottom
-            foreach (Actor actor in artifacts)
+            foreach (Actor actor in FallingObjects)
             {
                 location = actor.GetPosition();
                 if(location.GetY() >= 600)
@@ -100,25 +100,21 @@ namespace Unit04.Game.Directing
 
 
 
-            foreach (Actor actor in artifacts)
+            foreach (Actor actor in FallingObjects)
             {
                 if (robot.GetPosition().Equals(actor.GetPosition()))
                 {
-                    Artifact artifact = (Artifact) actor;
+                    FallingObjects artifact = (FallingObjects) actor;
                     pointTotal = pointTotal + 1;
                     banner.SetText($"Points: {pointTotal}");
 
                     //create a list that will be used to remove touched actors
-                    deleteList.Add(delCount);
+                    
                 }
-                delCount = delCount + 1;
+                
             }
 
-            //deletes touched items
-            foreach(int i in deleteList)
-            {
-                //cast.RemoveActor("artifacts", );
-            }
+            
         }
 
         /// <summary>

@@ -82,3 +82,24 @@ C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\r
 C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.pdb
 C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\Unit04.genruntimeconfig.cache
 C:\Users\James\Documents\Schoolwork\Programming\CSE 210\Greed\obj\Debug\net6.0\ref\Unit04.dll
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\Unit04.exe
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\Unit04.deps.json
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\Unit04.runtimeconfig.json
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\Unit04.dll
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\Unit04.pdb
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\Raylib-cs.dll
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\Unit04.csproj.AssemblyReference.cache
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\Unit04.GeneratedMSBuildEditorConfig.editorconfig
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\Unit04.AssemblyInfoInputs.cache
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\Unit04.AssemblyInfo.cs
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\Unit04.csproj.CoreCompileInputs.cache
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\Unit04.csproj.CopyComplete
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\Unit04.dll
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\refint\Unit04.dll
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\Unit04.pdb
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\Unit04.genruntimeconfig.cache
+C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\obj\Debug\net6.0\ref\Unit04.dll

@@ -52,15 +52,14 @@ namespace Unit04
             robot.SetPosition(new Point(MAX_X / 2, 555));
             cast.AddActor("robot", robot);
 
-            // load the messages
-            List<string> messages = File.ReadAllLines(DATA_PATH).ToList<string>();
+            
 
-            // create the artifacts
+            // create the Crystals and Rocks
             Random random = new Random();
             for (int i = 0; i < DEFAULT_ARTIFACTS; i++)
             {
                 string text = ((char)random.Next(33, 126)).ToString();
-                string message = messages[i];
+               
 
                 int x = random.Next(1, COLS);
                 int y = random.Next(1, ROWS);
@@ -72,13 +71,14 @@ namespace Unit04
                 int b = random.Next(0, 256);
                 Color color = new Color(r, g, b);
 
-                Artifact artifact = new Artifact();
-                artifact.SetText(text);
-                artifact.SetFontSize(FONT_SIZE);
-                artifact.SetColor(color);
-                artifact.SetPosition(position);
-                artifact.SetMessage(message);
-                cast.AddActor("artifacts", artifact);
+                FallingObjects FallingObject = new FallingObjects();
+                FallingObject.SetText(text);
+                FallingObject.SetFontSize(FONT_SIZE);
+                FallingObject.SetColor(color);
+                FallingObject.SetPosition(position);
+                // FallingObject.SetRock(rock);
+                cast.AddActor("FallingObjects", FallingObject);
+                // cast.AddActor("Crystals", Crystal);
             }
 
             // start the game
