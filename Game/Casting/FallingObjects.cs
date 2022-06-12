@@ -9,6 +9,7 @@ namespace Unit04.Game.Casting
     public class FallingObjects : Actor
     {
         private int rock = -1; 
+        
 
         private int crystal = 1; 
 
