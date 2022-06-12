@@ -9,9 +9,9 @@ namespace Unit04.Game.Casting
     public class FallingObjects : Actor
     {
         private int rock = -1; 
-        
 
-        private int crystal = 1; 
+
+        private int Gem = 1; 
 
         /// <summary>
         /// Constructs a new instance of an Artifact.
@@ -38,6 +38,15 @@ namespace Unit04.Game.Casting
             this.rock = rock;
         }
         
+        public int GetGem()
+        {
+            return Gem;
+        }
+
+        public void SetGem(int Gem)
+        {
+            this.Gem = Gem; 
+        }
         
     }
 }
