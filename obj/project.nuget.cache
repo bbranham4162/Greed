@@ -1,11 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "EBGvfXCpm6Kscry1DwnUWKKJhn+dBiJ/+fd4fN6HKFRk3Lq0q4+Kue+Kl+539Qhk9LIMvhB60BrXWAIsQkuhkA==",
   "success": true,
   "projectFilePath": "C:\\CollegeFoldersAndFiles\\Spring2022Semester\\ProgrammingWithClasses2\\Greed\\Unit04.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bryso\\.nuget\\packages\\raylib-cs\\3.7.0.1\\raylib-cs.3.7.0.1.nupkg.sha512",
     "C:\\Users\\bryso\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+=======
+  "dgSpecHash": "lQJwacV0ge0FvYU2OCMng/g4Drg0tFuYLjMIIqew4X2p4F0fjLUtzgJMp4XXgjA9ZV5yxhUHHrSAlIlbeqXZOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\Unit04.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caleb\\.nuget\\packages\\raylib-cs\\3.7.0.1\\raylib-cs.3.7.0.1.nupkg.sha512",
+    "C:\\Users\\caleb\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+>>>>>>> 755b20d001483a4a77bb2456fc027016fa9374b7
   ],
   "logs": []
 }

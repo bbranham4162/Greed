@@ -58,7 +58,8 @@ namespace Unit04
             Random random = new Random();
             for (int i = 0; i < DEFAULT_ARTIFACTS; i++)
             {
-                string textRock = ((char)9602).ToString();
+
+                string textRock = ((char)9632).ToString(); // Changes text to rock
                
 
                 int x = random.Next(1, COLS);
@@ -84,6 +85,7 @@ namespace Unit04
             for (int i = 0; i < DEFAULT_ARTIFACTS; i++)
             {
                 string textGem = ((char)42).ToString();
+
                
 
                 int x = random.Next(1, COLS);
