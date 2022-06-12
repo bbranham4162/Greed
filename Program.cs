@@ -58,7 +58,7 @@ namespace Unit04
             Random random = new Random();
             for (int i = 0; i < DEFAULT_ARTIFACTS; i++)
             {
-                string text = ((char)random.Next(33, 126)).ToString();
+                string text = (((char)50).ToString()); //THIS LINE DECIDEDS THE ROCKS TEXT SHAPE
                
 
                 int x = random.Next(1, COLS);
