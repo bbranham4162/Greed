@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\CollegeFoldersAndFiles\\Spring2022Semester\\ProgrammingWithClasses2\\Greed\\Unit04.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bryso\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\Unit04.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\Unit04.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\Unit04.csproj",
-        "projectName": "Unit04",
-        "projectPath": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\Unit04.csproj",
-        "packagesPath": "C:\\Users\\caleb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\caleb\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 755b20d001483a4a77bb2456fc027016fa9374b7
         ],
         "originalTargetFrameworks": [
           "net6.0"

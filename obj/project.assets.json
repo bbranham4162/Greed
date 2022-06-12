@@ -116,16 +116,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\bryso\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\caleb\\.nuget\\packages\\": {}
->>>>>>> 755b20d001483a4a77bb2456fc027016fa9374b7
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\CollegeFoldersAndFiles\\Spring2022Semester\\ProgrammingWithClasses2\\Greed\\Unit04.csproj",
       "projectName": "Unit04",
       "projectPath": "C:\\CollegeFoldersAndFiles\\Spring2022Semester\\ProgrammingWithClasses2\\Greed\\Unit04.csproj",
@@ -134,16 +129,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bryso\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-      "projectUniqueName": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\Unit04.csproj",
-      "projectName": "Unit04",
-      "projectPath": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\Unit04.csproj",
-      "packagesPath": "C:\\Users\\caleb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caleb\\OneDrive\\Desktop\\C#Repos\\Greed\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\caleb\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 755b20d001483a4a77bb2456fc027016fa9374b7
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -190,5 +175,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\CollegeFoldersAndFiles\\Spring2022Semester\\ProgrammingWithClasses2\\Greed\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

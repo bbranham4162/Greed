@@ -93,9 +93,9 @@ namespace Unit04
                 Point position = new Point(x, y);
                 position = position.Scale(CELL_SIZE);
 
-                int r = random.Next(0, 256);
-                int g = random.Next(0, 256);
-                int b = random.Next(0, 256);
+                int r = 255;
+                int g = 192;
+                int b = 203;
                 Color color = new Color(r, g, b);
 
                 FallingObjects FallingObject = new FallingObjects();

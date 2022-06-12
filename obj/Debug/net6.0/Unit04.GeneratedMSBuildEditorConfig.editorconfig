@@ -7,8 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Unit04
-<<<<<<< HEAD
 build_property.ProjectDir = C:\CollegeFoldersAndFiles\Spring2022Semester\ProgrammingWithClasses2\Greed\
-=======
-build_property.ProjectDir = C:\Users\caleb\OneDrive\Desktop\C#Repos\Greed\
->>>>>>> 755b20d001483a4a77bb2456fc027016fa9374b7
