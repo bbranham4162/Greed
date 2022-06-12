@@ -115,9 +115,8 @@ namespace Unit04.Game.Directing
                     FallingObjects artifact = (FallingObjects) actor;
                     pointTotal = pointTotal + 1;
 
-
-                    //create a list that will be used to remove touched actors
-                    
+                    location = new Point(randomInt, 0);
+                    actor.SetPosition(location);
                 }
                 
             }
