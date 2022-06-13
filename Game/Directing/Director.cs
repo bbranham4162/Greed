@@ -113,7 +113,7 @@ namespace Unit04.Game.Directing
                 if (robot.GetPosition().Equals(actor.GetPosition()))
                 {
                     FallingObjects artifact = (FallingObjects) actor;
-                    pointTotal = pointTotal + 1;
+                    pointTotal += artifact.GetPoints();
 
                     location = new Point(randomInt, 0);
                     actor.SetPosition(location);

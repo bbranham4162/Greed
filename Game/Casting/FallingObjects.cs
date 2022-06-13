@@ -8,10 +8,7 @@ namespace Unit04.Game.Casting
     /// </summary>
     public class FallingObjects : Actor
     {
-        private int rock = -1; 
-
-
-        private int Gem = 1; 
+        private int points; 
 
         /// <summary>
         /// Constructs a new instance of an Artifact.
@@ -24,29 +21,21 @@ namespace Unit04.Game.Casting
         /// Gets the artifact's message.
         /// </summary>
         /// <returns>The message.</returns>
-        public int GetRock()
+        public int GetPoints()
         {
-            return rock; 
+            return points; 
         }
 
         /// <summary>
         /// Sets the artifact's message to the given value.
         /// </summary>
         /// <param name="message">The given message.</param>
-        public void SetRock(int rock)
+        public void SetPoints(int points)
         {
-            this.rock = rock;
+            this.points = points;
         }
         
-        public int GetGem()
-        {
-            return Gem;
-        }
-
-        public void SetGem(int Gem)
-        {
-            this.Gem = Gem; 
-        }
+       
         
     }
 }

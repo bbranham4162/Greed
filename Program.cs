@@ -74,6 +74,7 @@ namespace Unit04
 
                 FallingObjects FallingObject = new FallingObjects();
                 FallingObject.SetText(textRock);
+                FallingObject.SetPoints(-1);
                 FallingObject.SetFontSize(FONT_SIZE);
                 FallingObject.SetColor(color);
                 FallingObject.SetPosition(position);
@@ -100,6 +101,7 @@ namespace Unit04
 
                 FallingObjects FallingObject = new FallingObjects();
                 FallingObject.SetText(textGem);
+                FallingObject.SetPoints(1);
                 FallingObject.SetFontSize(FONT_SIZE);
                 FallingObject.SetColor(color);
                 FallingObject.SetPosition(position);
